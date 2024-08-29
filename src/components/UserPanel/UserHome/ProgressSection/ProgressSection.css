@@ -1,0 +1,214 @@
+.ProgressSection {
+    margin: 30px 0;
+    width: 100%;
+    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+        0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+
+}
+
+.ProgressSection__header__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(240, 238, 238, 0.816);
+    padding: 4%;
+    min-height: 7vh;
+    max-height: 7vh;
+}
+
+.ProgressSection__header__heading {
+    font-weight: 600;
+    font-size: large;
+}
+
+.ProgressSection__header_sub_heading {
+    font-weight: normal;
+    font-size: medium;
+    color: rgba(98, 98, 98, 0.841);
+}
+
+.ProgressSection__courses__progress__box {
+    min-height: 5vh;
+    max-height: 5vh;
+    border-bottom: 1px solid rgba(98, 98, 98, 0.428);
+    padding: 4%;
+}
+
+.ProgressSection__courses__courseName__progress__container {
+    padding: 0 20px 0 10px;
+    max-width: 47%;
+    min-width: 47%;
+}
+
+.ProgressSection__courses__progress__box__right {
+    padding: 0 0 0 10px;
+}
+
+.ProgressSection__courses__progress__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ProgressSection__courses__progress__box__left {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.ProgressSection__courses__icon {
+    min-height: 50px;
+    max-height: 50px;
+    min-width: 60px;
+    max-width: 60px;
+    overflow: hidden;
+    margin-right: 10px;
+    border-radius: 3PX;
+}
+
+.ProgressSection__courses__icon__img {
+    min-width: 60px;
+    max-width: 60px;
+    min-height: 50px;
+    max-height: 50px;
+    background-color: #00a0ad55;
+    font-size: x-small;
+}
+
+.ProgressSection__courses__name {
+    font-weight: 600;
+    min-height: 25.5px;
+    max-height: 25.5px;
+    min-width: 210px;
+    max-width: 210px;
+    overflow: hidden;
+}
+
+.ProgressSection__courses__text__container {
+    font-size: small;
+    color: #00a0ad;
+    padding: 0px 0 0 0;
+}
+
+.ProgressSection__courses__progressBar__box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.ProgressSection__courses__progressBar {
+    background-color: rgb(178, 178, 178);
+    min-height: 5.5px;
+    max-height: 5.5px;
+    min-width: 200px;
+    max-width: 200px;
+    border-radius: 42px;
+    margin-right: 10px;
+}
+
+.ProgressSection__courses__progressBar__fil {
+    background-color: rgb(210, 210, 33);
+    min-height: 5.5px;
+    max-height: 5.5px;
+    border-radius: 42px;
+
+}
+
+.ProgressSection__courses__progressBar__value {
+    font-size: small;
+    color: rgba(98, 98, 98, 0.841);
+}
+
+.ProgressSection__courses__percentage {
+    margin: 0 auto;
+    padding: 10px 20px 5px 20px;
+    min-width: 15%;
+    max-width: 130px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 500px;
+    overflow: hidden;
+}
+
+
+.ProgressSection__courses__percentage__num {
+    font-size: medium;
+    color: white;
+    padding-left: 5px;
+}
+
+.ProgressSection__courses__percentage__icon {
+    font-size: medium;
+    color: white;
+}
+
+@media only screen and (max-width: 1350px) {
+    .ProgressSection__courses__progress__box__right {
+        padding: 0 0 0 15px;
+    }
+
+    .ProgressSection__courses__courseName__progress__container {
+        padding: 0 10px 0 5px;
+        max-width: 47%;
+        min-width: 47%;
+    }
+
+    .ProgressSection__courses__name {
+        min-width: 140px;
+        max-width: 140px;
+    }
+
+    .ProgressSection__courses__progressBar {
+        background-color: rgb(178, 178, 178);
+        min-height: 5.5px;
+        max-height: 5.5px;
+        min-width: 140px;
+        max-width: 140px;
+        border-radius: 42px;
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .ProgressSection__courses__progress__box__right {
+        padding: 0 5px;
+    }
+
+    .ProgressSection__courses__courseName__progress__container {
+        padding: 0 10px 0 5px;
+        max-width: 40%;
+        min-width: 40%;
+    }
+
+    .ProgressSection__courses__name {
+        min-width: 70px;
+        max-width: 70px;
+    }
+
+    .ProgressSection__courses__progressBar {
+        background-color: rgb(178, 178, 178);
+        min-height: 5.5px;
+        max-height: 5.5px;
+        min-width: 70px;
+        max-width: 70px;
+        border-radius: 42px;
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .ProgressSection__courses__name {
+        min-width: 140px;
+        max-width: 140px;
+    }
+
+    .ProgressSection__courses__progressBar {
+        background-color: rgb(178, 178, 178);
+        min-height: 5.5px;
+        max-height: 5.5px;
+        min-width: 140px;
+        max-width: 140px;
+        border-radius: 42px;
+        margin-right: 10px;
+    }
+}

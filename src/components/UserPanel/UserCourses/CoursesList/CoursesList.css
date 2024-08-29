@@ -1,0 +1,231 @@
+.CoursesList {
+  width: 80%;
+  margin: 30px auto;
+  /* justify-content: space-between; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2%;
+  z-index: -2;
+}
+.CoursesList__card {
+  min-height: 40vh;
+  max-height: 40vh;
+  min-width: 23.5%;
+  max-width: 23.5%;
+  margin-bottom: 25px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+}
+
+.CoursesList__card__img {
+  min-height: 70%;
+  max-height: 70%;
+  min-width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  border-radius: 15px 15px 0 0;
+}
+.CoursesList__card__img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.CoursesList__card__avail__container {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  min-height: 10%;
+  max-height: 10%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 15px 15px 0 0;
+  background: rgba(65, 66, 76, 0.23);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.3px);
+  -webkit-backdrop-filter: blur(6.3px);
+}
+.CoursesList__card__avail__icon__box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.CoursesList__card__details__container {
+  min-width: 90%;
+  max-width: 90%;
+  min-height: 50%;
+  max-height: 50%;
+  overflow: hidden;
+  z-index: 10;
+  position: absolute;
+  top: 45%;
+  left: 5%;
+  background: #41424c;
+  border-radius: 15px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.CoursesList__card__details__container:hover {
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+}
+.CoursesList__card__title {
+  min-width: 87%;
+  max-width: 87%;
+  max-height: 55px;
+  margin: 0 auto;
+  overflow: hidden;
+  font-size: large;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+.CoursesList__card__instructor {
+  min-width: 87%;
+  max-width: 87%;
+  max-height: 35px;
+  margin: 0 auto;
+  overflow: hidden;
+  font-size: small;
+  word-wrap: break-word;
+}
+.CoursesList__card__sec__time__box {
+  min-width: 87%;
+  max-width: 87%;
+  max-height: 23px;
+  margin: 0 auto;
+  overflow: hidden;
+  font-size: small;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.CoursesList__card__sec__time__box__item {
+  /* width: 50%; */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.CoursesList__card__Eligibility {
+  font-size: small;
+  color: #ff6961;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.CoursesList__skeletons__box {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2%;
+}
+.CoursesList__skeletons {
+  min-height: 40vh;
+  max-height: 40vh;
+  min-width: 23.5%;
+  max-width: 23.5%;
+  margin-bottom: 25px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+}
+.CoursesList__skeletons__top {
+  min-height: 70%;
+  max-height: 70%;
+  min-width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  border-radius: 15px 15px 0 0;
+  /* background-color: #41424c34; */
+}
+.CoursesList__skeletons__bottom {
+  min-width: 90%;
+  max-width: 90%;
+  min-height: 50%;
+  max-height: 50%;
+  overflow: hidden;
+  z-index: 10;
+  position: absolute;
+  top: 45%;
+  left: 5%;
+  background: #41424c;
+  border-radius: 15px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.CoursesList__skeletons__bottom__iner {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 950px) {
+  .CoursesList {
+    gap: 4%;
+  }
+  .CoursesList__card {
+    min-height: 40vh;
+    max-height: 40vh;
+    min-width: 48%;
+    max-width: 48%;
+    margin-bottom: 5px;
+  }
+
+  .CoursesList__card__details__container {
+    top: 42%;
+  }
+
+  .CoursesList__skeletons__box {
+    gap: 4%;
+  }
+  .CoursesList__skeletons {
+    min-height: 40vh;
+    max-height: 40vh;
+    min-width: 48%;
+    max-width: 48%;
+  }
+
+  .CoursesList__skeletons__bottom {
+    top: 42%;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .CoursesList {
+    flex-direction: column;
+    gap: 0;
+  }
+  .CoursesList__card {
+    min-height: 40vh;
+    max-height: 40vh;
+    min-width: 100%;
+    max-width: 100%;
+    margin-bottom: 5px;
+  }
+
+  .CoursesList__card__details__container {
+    top: 37%;
+  }
+
+  .CoursesList__skeletons__box {
+    flex-direction: column;
+    gap: 0;
+  }
+  .CoursesList__skeletons {
+    min-height: 40vh;
+    max-height: 40vh;
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .CoursesList__skeletons__bottom {
+    top: 37%;
+  }
+}

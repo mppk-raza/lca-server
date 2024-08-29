@@ -1,0 +1,99 @@
+.GetStarted {
+  height: auto;
+  background-color: #41424C;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.GetStarted__heading {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  margin-top: 4%;
+}
+
+.GetStarted__btn {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00a0ad;
+  border-radius: 10px;
+  width: max-content;
+  color: white;
+  padding: 10px 20px;
+  margin-right: 20px;
+  cursor: pointer;
+  /* background-image: linear-gradient(to right, #3ad0ad, #2cb5bc, #257bb5, #0656a5);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75); */
+  background-image: linear-gradient(to right, #006a74, #00a0ad, #00b8c9, #00def3);
+  box-shadow: 0 4px 15px 0 #006a74;
+  /* width: 200px; */
+  /* font-size: 16px; */
+  /* font-weight: 600; */
+  /* color: #fff; */
+  /* cursor: pointer; */
+  margin: 20px 0px;
+  /* height: 55px; */
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+
+  border-radius: 50px;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn:hover {
+  /* color: #0BA1AE; */
+  /* background-color: white; */
+  /* border: 1px solid #0BA1AE; */
+  background-position: 100% 0;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn.color {
+  /* background-image: linear-gradient(to right,  #3ad0ad, #2cb5bc, #257bb5, #0656a5);
+    box-shadow: 0 4px 15px 0 #0655a5b0; */
+  background-image: linear-gradient(to right,
+      #006a74, #00a0ad, #00b8c9, #00def3);
+  box-shadow: 0 4px 15px 0 #006a74;
+}
+
+
+@media only screen and (max-width: 650px) {
+
+  .GetStarted {
+    padding-bottom: 10px;
+  }
+
+  .GetStarted__heading {
+    text-align: center;
+    color: white;
+    font-size: 31px;
+    margin-top: 4%;
+  }
+
+  .GetStarted__btn {
+    text-align: center;
+    margin: 20px;
+  }
+
+  .btn {
+    width: max-content;
+  }
+}

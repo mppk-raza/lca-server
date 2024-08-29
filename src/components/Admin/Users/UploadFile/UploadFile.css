@@ -1,0 +1,54 @@
+.UploadFile__btn__box{
+    display: flex; 
+    justify-content: space-between;
+}
+.UploadFile__modal{
+    width: 50%;
+}
+.UploadFill {
+    margin-top: 30px;
+}
+
+.UploadFill__btn__box {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.UploadFill__btn {
+    min-width: 30% !important;
+    max-width: 70%;
+}
+
+.UploadFill__file {
+    border: 1px solid #ccc;
+    border-radius: 3.5px;
+    height: 35px;
+    width: 98%;
+    font-size: medium;
+    overflow: hidden;
+    text-align: left;
+    line-height: 34px;
+    margin: 10px 0;
+    padding: 0 1%;
+}
+
+/* .UploadFill__remove__btn {} */
+
+.UploadFill__progressBar {
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 10px !important;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px !important;
+}
+
+.FileContentSection {
+    margin: 20px 0;
+    border-top: 1px solid lightgray;
+    font-size: medium;
+    color: #1976d2;
+    padding: 10px 0 0 0;
+}
+
+.FileContentSection__Info__One {
+    margin: 10px 0;
+}

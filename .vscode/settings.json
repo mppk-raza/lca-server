@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/2bbfd7fe-b66b-4fa9-8c45-43543e713465/resourceGroups/ApptakNew/providers/Microsoft.Web/sites/mnplca/slots/app",
+    "appService.deploySubpath": "."
+}

@@ -1,0 +1,83 @@
+.RecentActivity{
+    min-height: 60vh;
+    margin-bottom: 30px;
+    width: 100%;
+    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+}
+.RecentActivity__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4%;
+}
+.RecentActivity__heading{
+    font-size: larger;
+    font-weight: 600;
+}
+.RecentActivity__times{
+    color: #0000EE;
+    cursor: pointer;
+    font-size: small;
+}
+.RecentActivity__navBar{
+    min-height: 5vh;
+    max-height: 5vh;
+    background-color: rgba(240, 238, 238, 0.816);
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.RecentActivity__navBar__item{
+    min-height: 5vh;
+    max-height: 5vh;
+    display: flex;
+    opacity: 60%;
+    align-items: center;
+    font-weight: 600;
+    margin: 0 10px;
+    padding: 0 3%;
+    cursor: pointer;
+    overflow: hidden;
+}
+.RecentActivity__navBar__item__active{
+    min-height: 5vh;
+    max-height: 5vh;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    margin: 0 10px;
+    padding: 0 3%;
+    border-bottom: 3px solid #1976d2;
+    cursor: pointer;
+    overflow: hidden;
+}
+.RecentActivity__list{
+    min-height: 3vh;
+    max-height: 3vh;
+    display: flex;
+    align-items: center;
+    padding: 4%;
+    overflow: hidden;
+}
+.RecentActivity__list__left{
+    display: flex;
+    align-items: center;
+}
+.RecentActivity__list__icon{
+    min-height: 45px;
+    max-height: 45px;
+    min-width: 45px;
+    max-width: 45px;
+    overflow: hidden;
+    margin-right: 20px;
+    border-radius: 100%;
+}
+.RecentActivity__list__heading{
+    font-weight: 600;
+}
+.RecentActivity__list__sub__heading{
+    color: rgba(98, 98, 98, 0.841);
+    font-size: smaller;
+    font-weight: normal;
+}

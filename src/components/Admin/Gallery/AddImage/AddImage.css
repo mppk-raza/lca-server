@@ -1,0 +1,57 @@
+.AddImage {
+  text-align: center;
+}
+.AddImage__modal {
+  width: 50%;
+}
+.AddImage__form {
+  width: 80%;
+  margin: 30px auto;
+  text-align: center;
+}
+.AddImage__heading {
+  text-align: center;
+}
+.AddImage__textfield__container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.AddImage__textfield {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.AddImage__btn {
+  margin: 20px auto;
+}
+.headline__text__form {
+  width: 80%;
+  margin: 30px auto;
+  border: 1px solid rgba(165, 159, 159, 0.558);
+  padding: 2%;
+}
+.headline__text__heading {
+  text-align: center;
+}
+.headline__text__textfield__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.headline__text__textfield {
+  width: 75%;
+  margin: 10px auto;
+}
+.headline__text__btn {
+  margin: 20px auto;
+  text-align: center;
+  width: max-content;
+}
+@media only screen and (max-width: 750px) {
+  .AddImage__modal {
+    width: 90%;
+  }
+  .AddImage__form {
+    width: 100%;
+  }
+}

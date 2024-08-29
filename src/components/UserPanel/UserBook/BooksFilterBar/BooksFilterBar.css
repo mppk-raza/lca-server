@@ -1,0 +1,84 @@
+.BooksFilterBar{
+    min-height: 52px;
+    max-height: 52px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 10% 0 10%;
+    background-color: #41424C;
+}
+.BooksFilterBar__left{
+z-index: 0;
+min-width: 23%;
+max-width: 23%;
+}
+.BooksFilterBar__mid{
+    min-width: 20%;
+    max-width: 20%;
+    min-height: 50px;
+    max-height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+    margin-right: 40%;
+}
+.BooksFilterBar__mid__item{
+    min-height: 44px;
+    max-height: 44px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    margin: 0 20px;
+    font-size: medium;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+}
+.BooksFilterBar__mid__item__active{
+    min-height: 44px;
+    max-height: 44px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    margin: 0 20px;
+    font-size: medium;
+    font-weight: 600;
+    color: #00a0ad;
+    border-bottom: 3px solid #00a0ad;
+    cursor: pointer;
+}
+.BooksFilterBar__right{
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 750px){
+    .BooksFilterBar{
+        max-height: fit-content;
+        flex-direction: column;
+        padding: 20px 10% 0 10%;
+    }
+    .BooksFilterBar__left{
+        min-width: 100%;
+        max-width: 100%;
+
+        }
+        .BooksFilterBar__mid{
+            min-width: 40%;
+            max-width: 40%;
+            margin-right: 10%;
+        }
+        .BooksFilterBar__mid__item {
+            margin: 0 10px;
+          }
+          .BooksFilterBar__mid__item__active {
+            margin: 0 10px;
+          }
+        .BooksFilterBar__right{
+            margin-top: 20px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+}

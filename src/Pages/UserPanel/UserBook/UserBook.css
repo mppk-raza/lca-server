@@ -1,0 +1,12 @@
+.UserBook{
+    width: 100%;
+}
+.UserBook__heading{
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    font-weight: 700;
+    background-color: #41424C;
+    padding-top: 40px;
+
+}

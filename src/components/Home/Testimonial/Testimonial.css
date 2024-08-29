@@ -1,0 +1,123 @@
+.testimonial {
+  min-height: 30vh;
+  background-color: #ffff;
+  width: 100%;
+  margin-bottom: 40px;
+}
+.testimonial__heading {
+  text-align: center;
+  margin: 25px 0 5px 0;
+  /* text-transform: uppercase; */
+  font-size: 40px;
+    font-weight: bolder;
+    /* letter-spacing: 2px; */
+    color: #212427;
+}
+.testimonial__cards__btn__container {
+  display: flex;
+  width: 85%;
+  margin: 0 auto;
+}
+.testimonial__cards__box {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  margin: 20px auto;
+  overflow: scroll;
+}
+.testimonial__cards__box {
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+.testimonial__cards__box::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
+
+.testimonial__card {
+  margin: 10px;
+  min-width: 48%;
+  max-width: 48%;
+  color: #333;
+  text-align: center;
+  
+}
+.testimonial__card__icon{
+height: 60px;
+}
+
+.testimonial__card__text {
+  font-size: medium;
+  margin-bottom: 30px;
+  padding: 10px 20px;   
+  line-height: 1.6em;
+  color: #6E6F73;       
+  /* max-height: 180px; */
+  /* overflow: scroll; */
+}
+.testimonial__card__img {
+  max-width: 100%;
+  vertical-align: middle;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.testimonial__card__author {
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+  
+}
+.designation {
+  text-transform: none;
+  margin: 0;
+
+  opacity: 0.7;
+}
+
+.skeleton__container{
+  display: flex;
+  width: 95%;
+  margin: 20px auto;
+  justify-content: center;
+  align-items: center;
+}
+.skeletons{
+  min-width: 30%;
+  max-width: 30%;
+
+}
+@media only screen and (max-width: 650px){
+ 
+  .testimonial__heading {
+    font-size: 31px;
+  }
+  
+  .testimonial__card {
+    margin: 10px;
+    min-width: 95%;
+    max-width: 95%;
+  }
+  
+  .testimonial__card__text {
+    max-height: 250px;
+  }
+  .testimonial__card__img {
+    max-width: 100%;
+    vertical-align: middle;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  .skeleton__container{
+    overflow: auto;
+    max-width: 90%;
+  }
+  .skeletons{
+    min-width: 100%;
+    max-width: 100%;
+  
+  }
+}

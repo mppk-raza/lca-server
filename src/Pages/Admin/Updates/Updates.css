@@ -1,0 +1,126 @@
+.Updates {
+    padding: 10px 0 50px 0;
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.Updates__Head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    min-width: 100%;
+}
+
+.Updates__Head__Text {
+    max-width: fit-content;
+    font-size: x-large;
+    color: #00a0ad;
+    margin-bottom: 20px;
+}
+
+.Updates__Object {
+    cursor: default;
+    max-width: 30%;
+    min-width: 270px;
+    margin: 20px 3% 20px 0%;
+    background-color: rgba(211, 211, 211, 0.5);
+    overflow: hidden;
+    border-radius: 40px;
+    transition: all ease-in-out 0.2s;
+}
+
+.Updates__Object:hover {
+    transform: translateY(-3%) scale(1.01);
+}
+
+.Updates__Object__Image {
+    width: 100%;
+    min-height: 190px;
+    max-height: 190px;
+    border-radius: 2px;
+}
+
+.Updates__Object__Head {
+    min-height: 60px;
+    max-height: 60px;
+    overflow: hidden;
+    min-width: 90%;
+    max-width: 90%;
+    margin: auto;
+    font-size: large;
+    color: #00a0ad;
+}
+
+.Updates__Object__Text {
+    min-width: 90%;
+    max-width: 90%;
+    min-height: 140px;
+    max-height: 140px;
+    margin: auto;
+    font-size: medium;
+    color: #41424C;
+}
+
+.Updates__Object__Date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 88%;
+    max-width: 88%;
+    padding-right: 5px;
+    margin: 10px auto 20px auto;
+    text-align: right;
+    font-size: medium;
+    font-weight: 600;
+    color: #00a0ad;
+}
+
+.Updates__Object__ButtonBox {
+    padding: 10px 0 0 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.Updates__Modal {
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.Updates__Modal__Head {
+    font-size: x-large;
+    color: #00a0ad;
+}
+
+.Updates__Modal__Input {
+    margin: 0 0 20px 0;
+}
+
+.Updates__Modal__Bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.Updates__Modal__Bottom__Left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.Updates__Modal__Bottom__Left__Type{
+    margin: 0 0 0 20px;
+}
+
+.Updates__Modal__Bottom__Left__Type__Content{
+    border: 1px solid lightgray;
+    padding: 8px 20px 8px 0px;
+    border-radius: 5px;
+}

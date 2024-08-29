@@ -1,0 +1,126 @@
+.Books {
+    padding: 10px 0 50px 0;
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.Books__Head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    min-width: 100%;
+}
+
+.Books__Head__Text {
+    max-width: fit-content;
+    font-size: x-large;
+    color: #00a0ad;
+    margin-bottom: 20px;
+}
+
+.Books__Object {
+    cursor: default;
+    max-width: 25%;
+    min-width: 25%;
+    margin: 20px 5% 20px 0%;
+    background-color: rgba(211, 211, 211, 0.5);
+    overflow: hidden;
+    border-radius: 40px;
+    transition: all ease-in-out 0.2s;
+}
+
+.Books__Object:hover {
+    transform: translateY(-3%) scale(1.01);
+}
+
+.Books__Object__Image {
+    width: 100%;
+    min-height: 200px;
+    max-height: 200px;
+    border-radius: 2px;
+}
+
+.Books__Object__Head {
+    min-height: 60px;
+    max-height: 60px;
+    overflow: hidden;
+    min-width: 90%;
+    max-width: 90%;
+    margin: auto;
+    font-size: large;
+    color: #00a0ad;
+    border-bottom: 1px solid #00a0ad;
+}
+
+.Books__Object__Text {
+    min-width: 90%;
+    max-width: 90%;
+    padding-top: 5px;
+    min-height: 40px;
+    max-height: 40px;
+    margin: auto;
+    font-size: medium;
+    color: #41424C;
+}
+
+.Books__Object__Date {
+    min-width: 88%;
+    max-width: 88%;
+    min-height: 40px;
+    max-height: 40px;
+    padding-right: 5px;
+    margin: auto auto 5px auto;
+    text-align: right;
+    font-size: small;
+    color: #00a0ad;
+}
+
+.Books__Object__ButtonBox {
+    padding: 10px 0 0 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.Books__Modal {
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.Books__Modal__Head {
+    font-size: x-large;
+    color: #00a0ad;
+}
+
+.Books__Modal__Input {
+    margin: 0 0 20px 0;
+}
+
+.Books__Modal__Bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.Books__Modal__Bottom__Left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.Books__Modal__Bottom__Left__Type{
+    margin: 0 0 0 20px;
+}
+
+.Books__Modal__Bottom__Left__Type__Content{
+    border: 1px solid lightgray;
+    padding: 8px 20px 8px 0px;
+    border-radius: 5px;
+}

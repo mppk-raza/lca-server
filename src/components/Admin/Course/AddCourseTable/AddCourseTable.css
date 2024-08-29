@@ -1,0 +1,11 @@
+.disUsersTable{
+background-color: rgba(150, 147, 147, 0.402);
+width: auto;
+height: 90vh;
+position: absolute;
+display: none;
+z-index: 2;
+top: 60%;
+    left: 10%;
+    right: 0;
+}

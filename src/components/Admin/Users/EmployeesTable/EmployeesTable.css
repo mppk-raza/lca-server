@@ -1,0 +1,58 @@
+.users__icon__green {
+  background-color: green;
+  height: 50%;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.users__icon__red {
+  background-color: red;
+  height: 47%;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.viewUser__modal {
+  width: 75%;
+}
+.viewUser__modal__heading {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: large;
+  font-weight: bold;
+}
+.user__details__out {
+  display: flex;
+}
+.user__details__box {
+  text-align: left;
+  margin: 0 25px 0 0;
+  width: 100%;
+}
+.user__detail {
+  display: flex;
+  margin: 0 0 25px 0;
+  width: 100%;
+  background-color: rgba(237, 234, 234, 0.638);
+  border: 1px solid rgba(165, 159, 159, 0.558);
+  padding: 1%;
+  border-radius: 5px;
+}
+.user__detail__title {
+  min-width: 25%;
+  max-width: 25%;
+  overflow: hidden;
+  padding: 0 10px 0 0;
+  margin: 0 10px 0 0;
+  border-right: 1px solid grey;
+  text-align: right;
+  font-weight: bold;
+}
+.edit__user__btn {
+  width: max-content;
+  margin: 0 auto;
+}
+
+.viewUser__actions__btn {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}

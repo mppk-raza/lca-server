@@ -1,0 +1,28 @@
+.AddLearningPartner__modal{
+  width: 50%;
+}
+.AddLearningPartner__form{
+    width: 95%;
+    margin: 20px auto;
+    text-align: center;
+  }
+  .AddLearningPartner__textfield__box{
+    padding: 5px;
+  }
+  .AddLearningPartner__textfield{
+    margin-bottom: 30px;
+  }
+  @media only screen and (max-width: 750px){
+    .AddLearningPartner__modal{
+      width: 90%;
+    }
+    .AddLearningPartner__form{
+      width: 100%;
+    }
+    .AddLearningPartner__textfield__box{
+      padding: 5px;
+    }
+    .AddLearningPartner__textfield{
+      margin-bottom: 20px;
+    }
+  }

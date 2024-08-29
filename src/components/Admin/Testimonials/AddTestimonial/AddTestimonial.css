@@ -1,0 +1,28 @@
+.AddTestimonial__modal{
+  width: 50%;
+}
+.AddTestimonial__form{
+    width: 95%;
+    margin: 20px auto;
+    text-align: center;
+  }
+  .AddTestimonial__textfield__box{
+    padding: 5px;
+  }
+  .AddTestimonial__textfield{
+    margin-bottom: 30px;
+  }
+  @media only screen and (max-width: 750px){
+    .AddTestimonial__modal{
+      width: 90%;
+    }
+    .AddTestimonial__form{
+      width: 100%;
+    }
+    .AddTestimonial__textfield__box{
+      padding: 5px;
+    }
+    .AddTestimonial__textfield{
+      margin-bottom: 20px;
+    }
+  }

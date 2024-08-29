@@ -1,0 +1,107 @@
+.QuizSection{
+    margin: 30px 0;
+    width: 100%;
+    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+}
+.QuizSection__header__box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(240, 238, 238, 0.816);
+    padding: 4%;
+    min-height: 7vh;
+    max-height: 7vh;
+}
+.QuizSection__header__heading{
+font-weight: 600;
+font-size: large;
+}
+.QuizSection__header_sub_heading{
+    font-weight: normal;
+    font-size: medium;
+    color: rgba(98, 98, 98, 0.841);
+}
+.QuizSection__courses__Quiz__box{
+    min-height: 5vh;
+    max-height: 5vh;
+    border-bottom: 1px solid rgba(98, 98, 98, 0.428);
+    padding: 4%;
+}
+.QuizSection__courses__Quiz__box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.QuizSection__courses__Quiz__box__left{
+    display: flex;
+    align-items: center;
+}
+.QuizSection__courses__icon{
+    min-height: 50px;
+    max-height: 50px;
+    min-width: 50px;
+    max-width: 50px;
+    overflow: hidden;
+    margin-right: 20px;
+    border-radius: 3PX;
+}
+.QuizSection__courses__courseNameQuiz__container{
+width: 87%;
+overflow: hidden;
+}
+.QuizSection__courses__name{
+    font-weight: 600;
+    min-height: 25.5px;
+    max-height: 25.5px;
+    width:100% ;
+    overflow: hidden;
+}
+
+.QuizSection__courses__video{
+    display: flex;
+    align-items: center;
+    font-size: small;
+    text-decoration: none;
+    color: #0000EE;
+    min-height: 22px;
+    max-height: 22px;
+    width: 100%;
+    overflow: hidden;
+}
+.QuizSection__courses__video a {
+    min-height: 22px;
+    max-height: 22px;
+    width: 100%;
+    overflow: hidden;
+
+}
+.QuizSection__courses__Quiz__box__right{
+    display: flex;
+    align-items: center;
+}
+.QuizSection__courses__Quiz__tag{
+    background-color:  rgb(210, 210, 33);
+    font-size: smaller;
+    padding: 4%;
+    border-radius: 3px;
+}
+.QuizSection__courses__Quiz__score{
+    margin-left: 10px;
+    color:  rgb(210, 210, 33);
+    font-size: larger;
+}
+@media only screen and (max-width: 550px){
+    .QuizSection__courses__courseNameQuiz__container{
+        width: 60%;
+        overflow: hidden;
+        }
+        .QuizSection__courses__Quiz__tag{
+            font-size: small;
+            padding: 2%;
+          
+        }
+        .QuizSection__courses__Quiz__score{
+            font-size: medium;
+        }
+    }

@@ -1,0 +1,125 @@
+.AddCourse__steps__box {
+  /* height: 29vh; */
+  padding: 10px 0;
+  background-color: #fff;
+}
+.AddCourse__heading1 {
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.AddCourse__heading__expnd__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 20px 0;
+}
+.AddCourse__heading__expnd__box__ex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.AddCourse__heading {
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.AddCourse__form__box {
+  width: 85%;
+  margin: 50px auto;
+  border: 1px solid rgba(165, 159, 159, 0.558);
+  padding: 3%;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+}
+.AddCourse__form__box__ex {
+  width: 85%;
+  margin: 50px auto;
+  border: 1px solid rgba(165, 159, 159, 0.558);
+  padding: 1%;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+}
+.AddCourse__sec__box__exp {
+  width: 100%;
+  margin: 50px auto;
+  border: 1px solid rgba(165, 159, 159, 0.558);
+  padding: 1%;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+}
+.AddCourse__textfield__container {
+  display: flex;
+  justify-content: space-between;
+}
+.AddCourse__textfield {
+  width: 45%;
+  margin-bottom: 20px;
+}
+.watch_time {
+  display: flex;
+  gap: 10px;
+}
+.AddCourse__form__btn {
+  margin-top: 20px;
+}
+.AddCourse__sec__box {
+  width: 100%;
+  margin: 50px auto;
+  border: 1px solid rgba(165, 159, 159, 0.558);
+  padding: 3%;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+  transition-delay: 1s;
+}
+.AddCourse__btn__box {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+}
+.addSection__btn_box {
+  width: 85%;
+  margin: 0 auto;
+}
+.addCourse__forEmployees__external__box {
+  width: 85%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.course__prerequisites__list__heading {
+  margin: 20px auto;
+  font-size: large;
+}
+.course__prerequisites__list__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgba(165, 159, 159, 0.558);
+  padding: 2%;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+  margin: 20px 0;
+}
+.AddCourse__quiz__btn {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  margin-top: 9px;
+  height: 40px;
+  width: 45%;
+}
+.AddCourse__expand__btn {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,140 @@
+.stats__banner {
+  height: 16vh;
+  width: 100%;
+  /* background-color: rgba(0, 0, 0, 0.923); */
+  /* background-color: #0a4682; */
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.795);
+  display: flex;
+  align-items: center;
+}
+
+.stats__banner__cards__box {
+  width: 80%;
+  height: 14vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stats__banner__card {
+  box-shadow: 0px 1px 2px #cacaca;
+  border-radius: 20px;
+  padding: 20px 0;
+  /* padding: 7px; */
+  min-width: 20%;
+  max-width: 20%;
+  /* min-height: 70%; */
+  /* max-height: 70%; */
+  margin: 0px auto;
+  text-align: center;
+  cursor: default;
+}
+
+/* .stats__banner__card:hover {
+  background-color: #eee;
+  color: black;
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+  border-radius: 15px;
+} */
+
+.stats__banner__card__icon {
+  color: #00a0ad;
+  font-size: 35px;
+  margin: 0;
+  padding: 0;
+}
+
+.stats__banner__card__stats {
+  color: #00a0ad;
+  font-size: large;
+  font-weight: bolder;
+}
+
+.stats__banner__card__title {
+  color: #00a0ad;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1200px) {
+  .stats__banner__card__icon {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .stats__banner {
+    height: 39vh;
+  }
+
+  .stats__banner__cards__box {
+    width: 80%;
+    height: 39vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .stats__banner__card {
+    min-width: 50%;
+    max-width: 50%;
+    margin: 10px auto;
+  }
+
+  .stats__banner__card__icon {
+    font-size: 29px;
+  }
+
+  .stats__banner__card__stats {
+    font-size: medium;
+    font-weight: bolder;
+  }
+
+  .stats__banner__card__title {
+    font-weight: bold;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .stats__banner {
+    height: 19vh;
+    padding-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .stats__banner {
+    height: 40vh;
+    padding-top: 10px;
+  }
+
+  .stats__banner__cards__box {
+    height: 40vh;
+  }
+
+
+  .stats__banner__card__icon {
+    font-size: 25px;
+  }
+
+  .stats__banner__card__stats {
+    font-size: 15px;
+    font-weight: bolder;
+  }
+
+  .stats__banner__card__title {
+    font-weight: bold;
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-height: 680px) {
+  .stats__banner {
+    height: 20vh;
+    /* padding: 25px 0 ; */
+  }
+}

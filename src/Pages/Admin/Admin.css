@@ -1,0 +1,29 @@
+
+.img{
+    padding: 5px 5px 5px 10px;
+}
+
+.training__modal {
+    width: 40%;
+    border: none !important;
+    border-radius: 15px;
+    background-color: #257bb5;
+    padding: 50px !important;
+    z-index: 500;
+}
+
+.modal__close__btn {
+    direction: rtl;
+}
+.Admin__passChange__modal{
+    width: 40%;
+}
+.Admin__passChange__modal__btn{
+    display: flex;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 750px){
+    .img{
+        padding: 0 8px 0 0 !important;
+    }
+}

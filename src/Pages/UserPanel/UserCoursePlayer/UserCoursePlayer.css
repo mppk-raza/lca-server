@@ -1,0 +1,434 @@
+/* audio::-webkit-media-controls-timeline,
+video::-webkit-media-controls-timeline {
+    display: none;
+}
+audio::-webkit-media-controls,
+video::-webkit-media-controls {
+    display: none;
+} */
+
+.UserCoursePlayer audio::-webkit-media-controls-timeline,
+.UserCoursePlayer video::-webkit-media-controls-timeline {
+  display: none;
+}
+.UserCoursePlayer {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
+  color: #41424c;
+}
+.UserCoursePlayer__heading {
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.UserCoursePlayer__leftRight__container {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.UserCoursePlayer__leftSec {
+  width: 85%;
+  min-height: 79vh;
+  max-height: 79vh;
+  overflow: auto;
+  padding: 0 5%;
+}
+.UserCoursePlayer__videoPlayer__box {
+  min-width: 100%;
+  max-width: 100%;
+  /* min-height: 60vh; */
+  max-height: 60vh;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+.UserCoursePlayer__videoPlayer__box__mob {
+  position: fixed;
+  top: 7vh;
+  z-index: 10;
+  background-color: white;
+  height: max-content;
+}
+/* .UserCoursePlayer__videoPlayer__box:hover{
+  opacity: 50%;
+} */
+.UserCoursePlayer__videoPlayer__hover {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  /* box-shadow: 0px 0px 400px -91px rgba(0,0,0,0.75) inset;
+-webkit-box-shadow: 0px 0px 400px -91px rgba(0,0,0,0.75) inset;
+-moz-box-shadow: 0px 0px 400px -91px rgba(0,0,0,0.75) inset; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* font-size: 70px; */
+}
+.UserCoursePlayer__videoPlayer__hover__top {
+  width: 100%;
+  height: 50px;
+  background-color: #41424c6b;
+  /* background-color: #41424c10;
+  box-shadow: -1px 60px 45px -5px rgba(65,66,76,1);
+  -webkit-box-shadow: -1px 60px 45px -5px rgba(65,66,76,1);
+  -moz-box-shadow: -1px 60px 45px -5px rgba(65,66,76,1); */
+}
+.UserCoursePlayer__videoPlayer__hover__center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 260px;
+  cursor: pointer;
+}
+.UserCoursePlayer__videoPlayer__hover__bottom {
+  height: 50px;
+  width: 100%;
+  background-color: #41424c6b;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  cursor: default;
+  z-index: 2;
+}
+.UserCoursePlayer__videoPlayer__hover__bottom__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 30px;
+  cursor: pointer;
+  z-index: 220;
+}
+.UserCoursePlayer__videoPlayer__hover__pause {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  box-shadow: 0px 0px 400px -91px rgba(0, 0, 0, 0.75) inset;
+  -webkit-box-shadow: 0px 0px 400px -91px rgba(0, 0, 0, 0.75) inset;
+  -moz-box-shadow: 0px 0px 400px -91px rgba(0, 0, 0, 0.75) inset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  /* font-size: 70px; */
+}
+.UserCoursePlayer__videoPlayer__hover__btn {
+  font-size: 70px;
+}
+.UserCoursePlayer__leftSec__btn__box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.UserCoursePlayer__leftSec__description__box {
+  margin: 30px 0;
+}
+.UserCoursePlayer__leftSec__description__heading {
+  font-size: larger;
+  font-weight: 600;
+}
+.UserCoursePlayer__rightSec {
+  width: 23%;
+  min-height: 79vh;
+  max-height: 79vh;
+  overflow: auto;
+}
+.UserCoursePlayer__box {
+  min-width: 100%;
+  max-width: 100%;
+  margin-bottom: 40px;
+  /* box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%); */
+}
+.UserCoursePlayer__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(240, 238, 238, 0.816);
+  padding: 4%;
+  min-height: 7vh;
+  max-height: 7vh;
+}
+
+.UserCoursePlayer__list__box {
+  min-width: 100%;
+  max-width: 100%;
+  /* min-height: 40vh;
+    max-height: 40vh;
+    overflow: auto; */
+}
+.UserCoursePlayer__list {
+  min-height: 5vh;
+  border-bottom: 1px solid rgba(98, 98, 98, 0.428);
+  padding: 4%;
+}
+.UserCoursePlayer__quiz__box {
+  width: 50%;
+}
+
+.UserCoursePlayer__quiz__heading {
+  text-align: center;
+  font-size: x-large;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #41424c;
+}
+.UserCoursePlayer__certificate__heading {
+  text-align: start !important;
+  font-size: large;
+  font-weight: 600;
+  margin: 20px 0px;
+  color: #41424c;
+}
+.UserCoursePlayer__quiz__ques__container {
+  max-height: 50vh;
+  overflow: auto;
+}
+.UserCoursePlayer__quiz__ques__box {
+  max-width: 100%;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+  padding: 1.5%;
+  border: 1px solid rgba(165, 159, 159, 0.558);
+  margin-bottom: 20px;
+}
+.UserCoursePlayer__quiz__ques {
+  max-width: 100%;
+  word-wrap: break-word;
+  font-size: larger;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.UserCoursePlayer__quiz__btn__box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.UserCoursePlayer__result__container {
+  width: 100%;
+  max-height: 50vh;
+  display: flex;
+  justify-content: space-between;
+}
+.UserCoursePlayer__feedback__container {
+  margin-top: 20px;
+  width: 100%;
+  max-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.UserCoursePlayer__result__left {
+  width: 45%;
+  max-height: 50vh;
+  overflow: auto;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+  padding: 1.5%;
+  border: 1px solid rgba(165, 159, 159, 0.558);
+  margin-bottom: 20px;
+}
+.UserCoursePlayer__result__right {
+  width: 45%;
+  max-height: 50vh;
+  overflow: auto;
+  text-align: center;
+  padding: 1.5%;
+  margin-bottom: 20px;
+}
+.UserCoursePlayer__result__right__score__box {
+  margin-top: 30px;
+}
+.UserCoursePlayer__result__right__score {
+  font-size: larger;
+  font-weight: 600;
+  color: #41424c;
+}
+.UserCoursePlayer__result__left__ans {
+  max-width: 100%;
+  word-wrap: break-word;
+}
+.UserCoursePlayer__instr__box__mob {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.UserCoursePlayer__heading__mob {
+  font-size: large;
+  font-weight: 600;
+  margin-right: 10px;
+}
+.UserCoursePlayer__instr__name__mob {
+  display: flex;
+}
+.UserCoursePlayer__abstract__box__mob {
+  margin-bottom: 15px;
+}
+.UserCoursePlayer__abstract__mob {
+  text-align: justify;
+}
+@media only screen and (max-width: 650px) {
+  .UserCoursePlayer {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 0;
+    color: #41424c;
+  }
+  .UserCoursePlayer__heading {
+    width: 75%;
+    margin: 10px auto;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .UserCoursePlayer__leftRight__container {
+    width: 75%;
+    margin: 40vh auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .UserCoursePlayer__rightSec {
+    width: 100%;
+    min-height: max-content;
+    max-height: max-content;
+  }
+  .UserCoursePlayer__leftSec {
+    width: 85%;
+    min-height: max-content;
+    max-height: max-content;
+    padding: 0 5%;
+  }
+  .UserCoursePlayer__leftSec__btn__box {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 20px; */
+  }
+  .UserCoursePlayer__leftSec__description__box {
+    margin: 10px 0;
+  }
+  .UserCoursePlayer__leftSec__description__heading {
+    font-size: larger;
+    font-weight: 600;
+  }
+  .UserCoursePlayer__videoPlayer__box {
+    min-width: 100%;
+    max-width: 100%;
+    /* min-height: 60vh; */
+    max-height: 60vh;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+  }
+  .UserCoursePlayer__videoPlayer__hover {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    /* box-shadow: 0px 0px 400px -91px rgba(0,0,0,0.75) inset;
+  -webkit-box-shadow: 0px 0px 400px -91px rgba(0,0,0,0.75) inset;
+  -moz-box-shadow: 0px 0px 400px -91px rgba(0,0,0,0.75) inset; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* font-size: 70px; */
+  }
+  .UserCoursePlayer__videoPlayer__hover__top {
+    width: 100%;
+    height: 30px;
+    background-color: #41424c00;
+    /* background-color: #41424c10;
+    box-shadow: -1px 60px 45px -5px rgba(65,66,76,1);
+    -webkit-box-shadow: -1px 60px 45px -5px rgba(65,66,76,1);
+    -moz-box-shadow: -1px 60px 45px -5px rgba(65,66,76,1); */
+  }
+  .UserCoursePlayer__videoPlayer__hover__center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: max-content;
+  }
+  .UserCoursePlayer__videoPlayer__hover__bottom {
+    height: max-content;
+    width: 100%;
+    background-color: #41424c00;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 0 30px;
+    cursor: default;
+    z-index: 2;
+  }
+  .UserCoursePlayer__videoPlayer__hover__bottom__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    cursor: pointer;
+    z-index: 220;
+  }
+  .UserCoursePlayer__videoPlayer__hover__btn {
+    font-size: 50px;
+  }
+  .UserCoursePlayer__result__container {
+    width: 100%;
+    max-height: max-content;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+  }
+  .UserCoursePlayer__result__left {
+    width: 100%;
+    max-height: 50vh;
+    overflow: auto;
+    box-shadow: none;
+    padding: 1.5%;
+    border: none;
+    margin-bottom: 20px;
+  }
+  .UserCoursePlayer__result__right {
+    width: 100%;
+    max-height: max-content;
+    text-align: center;
+    padding: 1.5%;
+    margin-bottom: 20px;
+  }
+  .UserCoursePlayer__result__right__score__box {
+    margin-top: 6px;
+  }
+  .UserCoursePlayer__result__right__score {
+    font-size: larger;
+    font-weight: 600;
+    color: #41424c;
+  }
+  .UserCoursePlayer__result__left__ans {
+    max-width: 100%;
+    word-wrap: break-word;
+  }
+  .UserCoursePlayer__quiz__box {
+    width: 80%;
+  }
+}
+
+.box__left__btn__color3 {
+  width: 100%;
+  color: #00a0ad;
+  border-color: #00a0ad;
+  background: #ffff;
+  padding: 10px 0;
+  margin-bottom: 4%;
+}
+.box__left__btn__color3:hover {
+  background-color: #00a0ad;
+  border-color: #00a0ad;
+  color: #ffff;
+}

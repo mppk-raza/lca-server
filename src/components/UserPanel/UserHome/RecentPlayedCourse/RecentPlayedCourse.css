@@ -1,0 +1,112 @@
+.RecentPlayedCourse{
+    margin: 30px 0;
+    width: 100%;
+    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+    max-height: 100%;
+    overflow: hidden;
+}
+.RecentPlayedCourse__img{
+    max-height: 48.5vh;
+    min-height: 48.5vh;
+    width: 100%;
+    overflow: hidden;
+}
+.RecentPlayedCourse__img img {
+    height: 48.5vh;
+    width: 100%;
+}
+.RecentPlayedCourse__nameBtn__box{
+    min-height: 5vh;
+    max-height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4%;
+    overflow: hidden;
+}
+.RecentPlayedCourse__name__heading{
+    font-weight: 600;
+    max-height: 55px;
+    width: 50%;
+    overflow: hidden;
+    overflow-wrap: break-word;
+}
+.RecentPlayedCourse__name__score{
+    margin: 0 15px;
+    padding: 10px 20px 5px 20px;
+    min-width: 15%;
+    max-width: 130px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 500px;
+    overflow: hidden;
+}
+.RecentPlayedCourse__video__link{
+    display: flex;
+    align-items: center;
+    font-size: small;
+    text-decoration: none;
+    color: #0000EE;
+    min-height: 22px;
+    max-height: 22px;
+    overflow: hidden;
+}
+.RecentPlayedCourse__video__link a {
+    min-height: 22px;
+    max-height: 22px;
+    overflow: hidden;
+}
+.RecentPlayedCourse__progressBar{
+    min-height: 4px;
+    max-height: 4px;
+    background-color: rgb(178, 178, 178);
+    width: 100%;
+    border-radius: 42px;
+}
+.RecentPlayedCourse__progressBar__value{
+    min-height: 4px;
+    max-height: 4px;
+    border-radius: 42px;
+    background-color: #1976d2;  
+}
+@media only screen and (max-width: 1450px){
+    .RecentPlayedCourse__img{
+        max-height: 43.5vh;
+        min-height: 43.5vh;
+        width: 100%;
+        overflow: hidden;
+    }
+    .RecentPlayedCourse__img img{
+        height: 43.5vh;
+    }
+}
+@media only screen and (max-width: 1350px){
+    .RecentPlayedCourse__img{
+        max-height: 41.5vh;
+        min-height: 41.5vh;
+        width: 100%;
+        overflow: hidden;
+    }
+    .RecentPlayedCourse__img img{
+        height: 41.5vh;
+    }
+}
+@media only screen and (max-width: 1150px){
+    .RecentPlayedCourse__img{
+        max-height: 38.5vh;
+        min-height: 38.5vh;
+        width: 100%;
+        overflow: hidden;
+    }
+    .RecentPlayedCourse__img img{
+        height: 38.5vh;
+    }
+}
+@media only screen and (max-width: 550px){
+    .RecentPlayedCourse__img{
+        width: 100%;
+        overflow: hidden;
+    }
+    
+}

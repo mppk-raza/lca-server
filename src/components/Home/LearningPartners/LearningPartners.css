@@ -1,0 +1,123 @@
+*{
+    scroll-behavior:  smooth !important;
+  }
+.learning__partner {
+  width: 100%;
+  min-height: 70vh;
+  background-color: #00a0adEE;
+  padding: 50px 0px 0px 0px;
+}
+.learning__partner__heading {
+  text-align: center;
+  margin: 15px 0 25px 0;
+  /* text-transform: uppercase; */
+  font-size: 40px;
+  font-weight: bolder;
+  color: #FFFFFF;
+}
+.learning__partner__card__btn__box {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+.learning__partner__btn__box {
+  display: flex;
+}
+.learning__partner__btn {
+  margin: auto;
+  cursor: pointer;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  background-color: #41424c80;
+}
+.learning__partner__btn:hover{
+  transform: scale(1.4);
+  transition: all 0.2s ease-in-out;
+}
+.learning__partner__cards__container {
+  width: 80%;
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: hidden;
+    margin: 0 auto;
+    scroll-behavior:  smooth !important;
+    overflow-x: auto;
+    /* justify-content: space-evenly; */
+}
+.learning__partner__cards__container {
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+.learning__partner__cards__container::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
+
+.learning__partner___card {
+  min-width: 29%;
+  max-width: 29%;
+  margin: 2%;
+  cursor: default;
+  max-height: 80vh;
+}
+/* .learning__partner___card:hover{
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+  border-radius: 5%;
+} */
+.card__img {
+  border-radius: 100%;
+  margin: 0 auto;
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+}
+/* .card__img:hover{
+  background-color:#000;
+  opacity:0.5;
+} */
+.card__name{
+  margin-top: 17px;
+  text-align: center;
+  font-size: medium;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.card__designation{
+  margin-top: 10px;
+  text-align: center;
+  font-size: medium;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.549);
+  text-transform: uppercase;
+}
+.card__details {
+  margin-top: 5px;
+  text-align: center;
+  font-size: small;
+  line-height: 1.7;
+  width: 90%;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 650px){
+  .learning__partner {
+    padding: 60px 0px 0px 0px;
+  }
+  .learning__partner__heading {
+    font-size: 31px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .learning__partner___card {
+    min-width: 100%;
+    max-width: 100%;
+    padding: 10px 0;
+  }
+
+  .learning__partner__btn__box {
+    margin: 20px 0;
+  }
+}

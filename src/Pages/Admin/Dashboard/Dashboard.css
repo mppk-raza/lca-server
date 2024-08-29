@@ -1,0 +1,60 @@
+.Dashboard {
+  margin-top: 0;
+}
+.Dashboard__sec1 {
+  display: flex;
+  /* justify-content: space-between; */
+  width: 94%;
+  margin: 0 auto 50px auto;
+}
+.Dashboard__sec1__DashboardStats {
+  height: 100px;
+  width: 25%;
+  margin: 0 15px;
+}
+.Dashboard__sec1__DashboardStats:last-child,
+.Dashboard__sec2__Courses:last-child {
+  margin-right: 0;
+}
+.Dashboard__sec1__DashboardStats:first-child,
+.Dashboard__sec2__Courses:first-child {
+  margin-left: 0;
+}
+.Dashboard__sec2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 94%;
+  margin: 30px auto;
+}
+.Dashboard__sec2__MonthWiseTrainingsStats {
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.Dashboard__sec2__Courses {
+  width: 23%;
+  margin: 20px 12.5px;
+}
+
+@media only screen and (max-width: 750px) {
+  .Dashboard__sec1 {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .Dashboard__sec1__DashboardStats {
+    min-height: 24%;
+    max-height: 24%;
+  }
+  .Dashboard__sec2 {
+    display: block;
+    width: 90%;
+    margin: 30px auto;
+  }
+  .Dashboard__sec2__MonthWiseTrainingsStats {
+    min-width: 90%;
+    max-width: 90%;
+    margin: 30px auto;
+  }
+}

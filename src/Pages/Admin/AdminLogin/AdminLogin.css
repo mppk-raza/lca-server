@@ -1,0 +1,149 @@
+.AdminLogin {
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.AdminLogin_Center {
+    background-color: transparent;
+    min-width: 25vw;
+    max-width: 60vw;
+    /* height: 70vh; */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid lightgrey  ;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    overflow: hidden;
+}
+
+.AdminLogin_Right_Side {
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    padding: 15% 35px 15% 35px;
+}
+
+.AdminLogin_Right_Side_Head_Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.AdminLogin_Right_Side_Head {
+    width: 100%;
+    text-align: center;
+    font-size: xx-large;
+    color: #44a0ed;
+    font-weight: bold;
+}
+
+.AdminLogin_Right_Side_Green_Text {
+    color: #00a0ad;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: left;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.AdminLogin_Right_Side_White_Text {
+    color: gray;
+    font-size: medium;
+    font-weight: lighter;
+    text-align: left;
+    width: 100%;
+}
+
+.AdminLogin_Right_Side_Input_Box {
+    margin: 10% 0 5% 0;
+    width: 100%;
+}
+
+.AdminLogin_Right_Side_Input_OneBox_Text {
+    font-size: smaller;
+    width: 100%;
+    text-align: left;
+    padding: 10px 0 10px 0;
+    color: gray;
+}
+
+.AdminLogin_Right_Side_Input_OneBox_Input {
+    width: 95%;
+    height: 25px;
+    border: 0px;
+    border: 1px solid #808080aa;
+    background-color: transparent;
+    display: flex;
+}
+.AdminLogin_Right_Side_Forgot_Container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 5px 0;
+    flex-wrap: wrap;
+    color: gray;
+    font-size: small;
+    text-align: left;
+    font-weight: normal;
+    cursor: pointer;
+
+}
+.AdminLogin__forgotPass__modal__btn{
+    display: flex;
+    justify-content: space-between;
+}
+.AdminLogin_Right_Side_Forgot {
+    color: gray;
+    font-size: small;
+    text-align: left;
+    font-weight: bold;
+    cursor: pointer;
+}
+.AdminLogin_Right_Side_Forgot_Light {
+    margin:  0 3.5px 0 0;
+    color: gray;
+    font-size: small;
+    text-align: left;
+    font-weight: normal;
+}
+
+.AdminLogin_Right_Side_Button_Container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 20px 0 0 0  ;
+}
+
+.AdminLogin_Right_Side_AdminLogin_Button {
+    border: 1px solid white;
+    width: 98%;
+    margin: 0 5px 0 0;
+    color: white;
+}
+
+.AdminLogin_Right_Side_Signup_Button {
+    border: 1px solid #808080cc;
+    border-radius: 2px;
+    width: 30%;
+    padding: 10px 2.5px;
+    text-align: center;
+    background-color: white;
+    color: #808080cc;
+    cursor: pointer;
+}
+
+.AdminLogin_Right_Side_Text {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    font-size: medium;
+}

@@ -1,0 +1,52 @@
+.signUp {
+  text-align: center;
+  width: 40%;
+  margin: 2.5% auto;
+  min-height: 62vh;
+}
+.signUp__form {
+  text-align: center;
+}
+.signUp__textfield {
+  margin: 0 0 10px 0;
+}
+.Login__formControl {
+  width: 60%;
+  margin: 5px auto;
+}
+.signUp__btn {
+  width: 60%;
+  margin: 25px auto;
+}
+@media only screen and (max-width: 650px) {
+  .signUp {
+    text-align: center;
+    width: 100%;
+    margin: 2.9% auto;
+  }
+  .signUp__textfield {
+    margin: 0 0 10px 0;
+  }
+  .Login__formControl {
+    width: 85% !important;
+    margin: 5px auto;
+  }
+  .signUp__btn {
+    width: 85%;
+    margin: 25px auto;
+  }
+}
+
+.form_input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.signUp_textfield {
+  width: 70%;
+  align-self: center;
+}

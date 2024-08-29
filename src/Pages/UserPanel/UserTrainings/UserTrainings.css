@@ -1,0 +1,318 @@
+.UserTrainings {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.UserTrainings__Heading {
+  font-size: xx-large;
+  font-weight: 700;
+  text-align: center;
+  background-color: #41424c;
+  color: white;
+  padding-top: 40px;
+}
+
+.UserTrainings__Filter {
+  min-height: 52px;
+  max-height: 52px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 10% 0 10%;
+  background-color: #41424c;
+}
+
+.UserTrainings__Filter__left {
+  z-index: 0;
+  min-width: 23%;
+  max-width: 23%;
+}
+
+.UserTrainings__Filter__mid {
+  min-width: 20%;
+  max-width: 20%;
+  min-height: 50px;
+  max-height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 40%;
+}
+
+.UserTrainings__Filter__mid__item {
+  min-height: 44px;
+  max-height: 44px;
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  margin: 0 20px;
+  font-size: medium;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+}
+
+.UserTrainings__Filter__mid__item__active {
+  min-height: 44px;
+  max-height: 44px;
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  margin: 0 20px;
+  font-size: medium;
+  font-weight: 600;
+  color: #00a0ad;
+  border-bottom: 3px solid #00a0ad;
+  cursor: pointer;
+}
+
+.UserTrainings__Filter__right {
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+.UserTrainings__List {
+  width: 80%;
+  min-height: 55vh;
+  margin: 30px auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2%;
+}
+
+.UserTrainings__List__card {
+  min-width: 220px;
+  width: 23.5%;
+  max-width: 23.5%;
+  max-height: fit-content;
+}
+
+.UserTrainings__List__card__img {
+  min-width: 100%;
+  max-width: 100%;
+  background-color: #00a0ad55;
+  border-radius: 15px;
+  cursor: pointer;
+  padding: 5% 0;
+  margin: 10px 0;
+}
+
+.UserTrainings__List__card__img:hover {
+  background-color: #41424c;
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.05);
+}
+
+.UserTrainings__List__card__img:hover
+  .UserTrainings__List__card__details__container {
+  background-color: #00a0ad;
+  transition: all 0.3s ease-in-out;
+}
+
+.UserTrainings__List__card__details__container {
+  min-width: 90%;
+  max-width: 90%;
+  padding: 5px 0;
+  margin: auto;
+  min-height: 350px;
+  max-height: 350px;
+  background: #41424c;
+  border-radius: 15px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* transform: translateY(-100px); */
+}
+
+.UserTrainings__List__card__title {
+  min-width: 87%;
+  max-width: 87%;
+  max-height: 55px;
+  margin: 0 auto;
+  overflow: hidden;
+  font-size: large;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.UserTrainings__List__card__instructor {
+  min-width: 87%;
+  max-width: 87%;
+  margin: 5px auto;
+  overflow: hidden;
+  font-size: small;
+  word-wrap: break-word;
+}
+
+.UserTrainings__List__card__sec__time__box {
+  min-width: 87%;
+  max-width: 87%;
+  margin: 0 auto;
+  overflow: hidden;
+  font-size: small;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.UserTrainings__List__card__sec__time__box__item {
+  /* width: 50%; */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5px;
+}
+
+.UserTrainings__List__card__Eligibility {
+  font-size: small;
+  color: #ff6961;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.UserTrainings__List__skeletons__box {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2%;
+}
+
+.UserTrainings__List__skeletons {
+  min-height: 370px;
+  max-height: 370px;
+  min-width: 23.5%;
+  max-width: 23.5%;
+  margin-bottom: 25px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+}
+
+.UserTrainings__List__skeletons__top {
+  min-height: 100%;
+  max-height: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  border-radius: 15px;
+  /* background-color: #41424c34; */
+}
+
+.UserTrainings__List__skeletons__bottom {
+  min-width: 84%;
+  max-width: 84%;
+  min-height: 90%;
+  max-height: 90%;
+  overflow: hidden;
+  z-index: 10;
+  position: absolute;
+  top: 5%;
+  left: 8%;
+  background: #41424c;
+  border-radius: 15px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.UserTrainings__List__skeletons__bottom__iner {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* tab responsive */
+@media only screen and (max-width: 850px) {
+  .UserTrainings__List {
+    width: 80%;
+    min-height: 55vh;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+  }
+  .UserTrainings__List__card {
+    min-width: 220px;
+    width: 45%;
+    max-width: 45%;
+    max-height: fit-content;
+  }
+  .UserTrainings__List__skeletons__box {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+  }
+
+  .UserTrainings__List__skeletons {
+    min-height: 370px;
+    max-height: 370px;
+    min-width: 45%;
+    max-width: 45%;
+    margin-bottom: 5px;
+  }
+}
+/* mobile responsive */
+@media only screen and (max-width: 650px) {
+  .UserTrainings__List {
+    width: 80%;
+    min-height: 55vh;
+    margin: 30px auto;
+
+    gap: 0;
+  }
+  .UserTrainings__List__card {
+    min-width: 220px;
+    width: 100%;
+    max-width: 100%;
+  }
+  .UserTrainings__List__skeletons__box {
+    width: 100%;
+    gap: 0;
+  }
+
+  .UserTrainings__List__skeletons {
+    min-height: 370px;
+    max-height: 370px;
+    min-width: 100%;
+    max-width: 100%;
+    margin-bottom: 19px;
+  }
+}
+/* filter responsive */
+@media only screen and (max-width: 750px) {
+  .UserTrainings__Filter {
+    max-height: fit-content;
+    flex-direction: column;
+    padding: 20px 10% 0 10%;
+  }
+  .UserTrainings__Filter__left {
+    min-width: 100%;
+    max-width: 100%;
+  }
+  .UserTrainings__Filter__mid {
+    min-width: 45%;
+    max-width: 45%;
+    margin-right: 7%;
+  }
+  .UserTrainings__Filter__mid__item {
+    margin: 0 10px;
+  }
+  .UserTrainings__Filter__mid__item__active {
+    margin: 0 10px;
+  }
+  .UserTrainings__Filter__right {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}

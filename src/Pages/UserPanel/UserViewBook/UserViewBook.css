@@ -1,0 +1,206 @@
+.UserViewBook {
+  width: 80%;
+  margin: 0 auto;
+  color: #41424c;
+}
+.UserViewBook__back__Btn {
+  margin-top: 50px;
+  padding: 0 39px;
+}
+.UserViewBook__details__box {
+  min-width: 100%;
+  max-width: 100%;
+  background-color: #fff;
+  min-height: 65vh;
+  max-height: 65vh;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 4px;
+  /* border: 1px solid rgba(165, 159, 159, 0.558); */
+  /* box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%); */
+  padding: 39px;
+}
+.UserViewBook__left__img {
+  width: 28%;
+  min-height: 100%;
+  text-align: center;
+  margin-right: 30px;
+}
+.UserViewBook__left__img img {
+width: 100%;
+height: 100%;
+  border-radius: 0 22px 22px 0;
+  box-shadow: -7px 9px 6px 8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -7px 9px 6px 8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -7px 9px 6px 8px rgba(0, 0, 0, 0.75);
+}
+.UserViewBook__right {
+  width: 65%;
+  padding: 2% 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.UserViewBook__right__heading {
+  font-size: 40px;
+  font-weight: 600;
+}
+.UserViewBook__right__status__box {
+  display: flex;
+  align-items: center;
+}
+.UserViewBook__right__divider {
+  min-height: 1px;
+  max-height: 1px;
+  width: 100%;
+  background-color: rgba(165, 159, 159, 0.558);
+  margin: 20px 0;
+}
+.UserViewBook__right__status__avail {
+  color: lightgreen;
+  margin-left: 5px;
+}
+.UserViewBook__right__status__notAvail {
+  margin-left: 5px;
+  color: lightcoral;
+}
+.UserViewBook__right__author {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.UserViewBook__right__author__text {
+  word-wrap: break-word;
+}
+.UserViewBook__right__author__dot {
+  margin-right: 5px;
+  min-width: 8px;
+  max-width: 8px;
+  min-height: 8px;
+  max-height: 8px;
+  background-color: #41424c;
+  border-radius: 100%;
+}
+.UserViewBook__right__author__title {
+  font-weight: 600;
+  margin-right: 7px;
+}
+.UserViewBook__right__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #41424c;
+  border-radius: 10px;
+  width: max-content;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-image: linear-gradient(
+    to right,
+    #41424c,
+    #4a4b56,
+    #4d4e5a,
+    #4d4e5a
+  );
+  box-shadow: 0 4px 15px 0 #4d4e5a;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  margin-top: 5px;
+  border-radius: 50px;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.UserViewBook__right__btn:hover {
+  /* color: #0BA1AE; */
+  /* background-color: white; */
+  /* border: 1px solid #0BA1AE; */
+  background-position: 100% 0;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.UserViewBook__right__btn:focus {
+  outline: none;
+}
+.UserViewBook__right__btn.color {
+  background-image: linear-gradient(
+    to right,
+    #44afba,
+    #3b9dc1,
+    #257bb5,
+    #0656a5
+  );
+  box-shadow: 0 4px 15px 0 #0655a5b0;
+}
+@media only screen and (max-width: 650px) {
+  .UserViewBook {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .UserViewBook__back__Btn {
+    margin-top: 40px;
+    padding: 0;
+  }
+  .UserViewBook__details__box {
+    min-width: 100%;
+    max-width: 100%;
+    min-height: max-content;
+    max-height: max-content;
+    margin: 20px 0 0 0;
+    flex-direction: column;
+    padding: 0;
+  }
+  .UserViewBook__left__img {
+    margin: 0 auto;
+    width: 100%;
+    height: 50vh;
+
+  }
+  .UserViewBook__right {
+    margin: 20px 0;
+    width: 100%;
+    padding: 2% 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .UserViewBook__right__heading {
+    font-size: xx-large;
+    font-weight: 600;
+  }
+
+  .UserViewBook__right__author {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    word-wrap: break-word;
+  }
+  .UserViewBook__right__author__dot {
+    margin-right: 5px;
+    min-width: 8px;
+    max-width: 8px;
+    min-height: 8px;
+    max-height: 8px;
+    background-color: #41424c;
+    border-radius: 100%;
+  }
+  .UserViewBook__right__author__title {
+    font-weight: 600;
+    margin-right: 7px;
+  }
+  .UserViewBook__right__author__text {
+    width: 55%;
+    word-wrap: break-word;
+  }
+  .UserViewBook__right__btn {
+    width: 100%;
+
+    padding: 10px 0;
+  }
+}

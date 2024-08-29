@@ -1,0 +1,29 @@
+.NominateUnderlings__modal {
+  width: 40%;
+}
+.NominateUnderlings__modal__heading {
+  font-size: large;
+  font-weight: 600;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.NominateUnderlings__modal__select__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.NominateUnderlings__modal__trainings {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.NominateUnderlings__modal__underlings {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 650px){
+  .NominateUnderlings__modal {
+    width: 70%;
+  }
+ 
+}

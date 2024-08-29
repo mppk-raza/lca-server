@@ -1,0 +1,77 @@
+.Login {
+  text-align: center;
+  width: 40%;
+  margin: 12.5vh auto;
+  min-height: 37vh;
+}
+
+.Login__form {
+  text-align: center;
+}
+
+.Login__textfield {
+  margin: 0 0 20px 0;
+}
+
+.Login__formControl {
+  width: 100%;
+
+}
+
+.Login__btn {
+  width: 60%;
+  margin: 15px auto;
+}
+
+.register__link {
+  width: 90%;
+  margin: 10px auto;
+  font-size: 15px;
+
+}
+
+.Login_Right_Side_Forgot_Container {
+  width: 70%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 5px auto 0px auto;
+  color: gray;
+  padding: 5px 0 0 10%;
+  font-size: small;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 650px) {
+  .Login {
+    width: 100%;
+  }
+
+  .Login__textfield {
+    width: 100%;
+  }
+
+  .Login__formControl {
+    width: 85% !important;
+    margin: 5px auto;
+
+  }
+
+  .Login__btn {
+    width: 85%;
+    margin: 15px auto;
+  }
+
+  .register__link {
+    width: 90%;
+    margin: 10px auto;
+    font-size: 15px;
+
+  }
+  .Login_Right_Side_Forgot_Container {
+    width: 85%;
+    padding: 5px 0 0 0;
+  }
+
+}

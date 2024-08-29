@@ -1,0 +1,62 @@
+.AddEmployees__btn__box {
+margin: 0 auto ;
+background-color: aqua;
+width: 95%;
+}
+.AddEmployees__btn{
+float: right;
+margin-bottom: 20px;
+margin-left: 10px;
+}
+.AddEmployees__modal {
+  width: 70%;
+}
+.AddEmployees__form {
+  width: 95%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.AddEmployees__textfield__container {
+  display: flex;
+  justify-content: space-between;
+}
+.AddEmployees__textfield {
+  margin-bottom: 30px;
+  width: 45%;
+}
+.edit__testimonial__form__btn{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+}
+@media only screen and (max-width: 750px) {
+  .AddEmployees__btn__box {
+    width: 95%;
+    margin: 40px auto 0 auto;
+    flex-direction: column;
+  }
+  .AddEmployees__btn{
+    margin-bottom: 20px;
+  }
+  .AddEmployees__modal {
+    width: 90%;
+  }
+  .AddEmployees__form {
+    width: 100%;
+  }
+  .AddEmployees__textfield__box {
+    padding: 5px;
+    overflow: scroll;
+  }
+  .AddEmployees__textfield__container {
+  display: block;
+}
+  .AddEmployees__textfield {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+}

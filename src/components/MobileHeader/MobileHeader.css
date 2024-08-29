@@ -1,0 +1,89 @@
+.MobileNavBar {
+  background-color: white;
+  width: 100%;
+  height: 70px;
+}
+.MobileNavBar__head {
+  width: 100%;
+  height: 54.7px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 25px;
+}
+.MobileNavBar__box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.MobileNavBar__left {
+  width: 50%;
+  height: 70px;
+}
+.MobileNavBar__left__logo {
+  height: 100%;
+  width: auto;
+}
+
+.mobile__header__logo {
+  margin-left: 10%;
+  height: 70px;
+  width: auto;
+  cursor: pointer;
+  /* padding: 10px; */
+}
+.mobile__header__logo2 {
+  height: 69%;
+  width: auto;
+  cursor: pointer;
+  margin: auto 0;
+}
+.mobile__header__close {
+  margin: auto 0;
+}
+.MobileNavBar__right {
+  width: 50%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.MobileNavBar__right__btn {
+  cursor: pointer;
+  width: 29.9px;;
+  height: 29.9px;
+  margin-right: 9%;
+  /* margin: 20px; */
+}
+.MobileNavBar__menu {
+  background-color: white;
+  padding: 17px 0 1px 0;
+}
+.menu__items {
+  display: flex;
+  justify-content: space-between;
+  padding: 9px 0 9px 39px;
+  border-top: 1px solid lightgray;
+  cursor: pointer;
+  font-size: large;
+  height: 40px;
+}
+.menu__items a {
+  text-decoration: none;
+}
+.menu__items__text {
+  font-size: large;
+  color: black;
+}
+.iner__menu {
+}
+.iner__menu__items {
+  padding: 9px 0 9px 45px;
+  border-top: 1px solid rgba(211, 211, 211, 0.568);
+  cursor: pointer;
+  font-size: large;
+  height: 40px;
+}
+.iner__menu__items a {
+  text-decoration: none;
+  color: black;
+}

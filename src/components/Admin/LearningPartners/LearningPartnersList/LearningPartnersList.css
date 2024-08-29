@@ -1,0 +1,135 @@
+.LearningPartnersList__heading__addtest__btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  margin: 0 auto;
+
+}
+.LearningPartnersList__cards__box {
+  display: flex;
+  width: 95%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px auto;
+}
+
+.LearningPartnersList__card {
+  margin: 2% 0;
+  padding: 10px;
+  min-width: 30%;
+  max-width: 30%;
+  color: #333;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid rgba(165, 159, 159, 0.558);
+
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+}
+.LearningPartnersList__card:hover {
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+}
+.LearningPartnersList__card__Deleted {
+  opacity: 0.4;
+  background-color: rgba(217, 213, 213, 0.634);
+  margin: 2% 0;
+  padding: 10px;
+  min-width: 30%;
+  max-width: 30%;
+  color: #333;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid rgba(165, 159, 159, 0.558);
+
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+}
+.LearningPartnersList__card__Deleted:hover {
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+}
+.LearningPartnersList__card__icon {
+  height: 60px;
+}
+
+.LearningPartnersList__card__text {
+  font-size: medium;
+  margin-bottom: 30px;
+  padding: 10px 20px;
+  line-height: 1.6em;
+  color: #6e6f73;
+}
+.LearningPartnersList__card__img {
+  max-width: 100%;
+  vertical-align: middle;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.LearningPartnersList__card__author {
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+}
+.designation {
+  text-transform: none;
+  margin: 0;
+
+  opacity: 0.7;
+}
+.LearningPartnersList__card__btn__box {
+  display: flex;
+  justify-content: center;
+}
+.edit__LearningPartner__modal {
+  width: 50%;
+}
+.edit__LearningPartner__form {
+  width: 95%;
+  margin: 20px auto;
+}
+/* .edit__LearningPartner__textfield__box{
+
+  } */
+.edit__LearningPartner__textfield {
+  margin-bottom: 30px;
+}
+@media only screen and (max-width: 750px) {
+  .LearningPartnersList__heading__addtest__btn {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .LearningPartnersList__cards__box {
+    display: block;
+    width: 90%;
+  }
+
+  .LearningPartnersList__card {
+    margin: 20px auto;
+    padding: 10px;
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .LearningPartnersList__card__Deleted {
+    opacity: 0.4;
+    background-color: rgba(217, 213, 213, 0.634);
+    margin: 20px auto;
+    padding: 10px;
+    min-width: 100%;
+    max-width: 100%;
+  }
+  .edit__LearningPartner__modal {
+    width: 90%;
+  }
+  .edit__LearningPartner__form {
+    width: 100%;
+    margin: 20px auto;
+  }
+}

@@ -1,0 +1,43 @@
+.Video{
+    width: 97%;
+    margin: 10px auto 30px auto;
+    border: 1px solid rgba(165, 159, 159, 0.558);
+    padding: 10px 2%;
+    border-radius: 4px;
+    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+    text-align: center;
+}
+.Video__box{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.Video__box video {
+    width: 100%;
+    height: 100%; 
+}
+.Video__btn{
+    width: max-content;
+    margin: 10px auto;
+}
+.Video__modal {
+    width: 50%;
+}
+.Video__modal__heading {
+    text-align: center;
+}
+.Video__modal__textfield__container {
+    display: block;
+    justify-content: space-between;
+}
+
+.Video__modal__textfield {
+    width: 100%;
+    margin: 30px auto;
+}
+.Video__modal__btn {
+    margin: 20px auto;
+    text-align: center;
+    width: 100%;
+}

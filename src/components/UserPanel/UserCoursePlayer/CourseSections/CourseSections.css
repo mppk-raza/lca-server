@@ -1,0 +1,76 @@
+.course__section__box{
+  /* box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%); */
+  padding: 1.5% 0 1.5% 1.5%;
+}
+.course__section__box__abstract__box{
+  /* display: flex; */
+}
+.course__section__box__abstract__box__active{
+  padding-left: 5%;
+}
+.course__section__box__abstract__heading{
+  font-weight: 600;
+  padding-right: 15px;
+}
+.course__section__box__abstract{
+text-align: justify;
+max-width: 100%;
+overflow: hidden;
+word-wrap: break-word;
+padding-right: 15px;
+}
+.course__section__box__heading__btn__cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+}
+.course__section__box__heading{
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.course__section__box__heading__active{
+  display: flex;
+  align-items: center;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 1.5% 0 1.5% 5%;
+    border-left: 3px solid #00a0ad;
+}
+.course__section__name{
+  max-width: 100%;
+  overflow: hidden;
+  font-size: 16px;
+  font-weight: 600;
+  word-wrap: break-word;
+  padding-right: 15px;
+}
+.course__section__lesson__box{
+    /* box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%); */
+    padding: 1.5% 20px 1.5% 5%;
+  margin: 10px 0 10px 10px;
+  cursor: pointer;
+}
+.course__section__lesson__box__heading{
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+.course__section__lesson__box__active{
+    /* box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%); */
+  background-color: rgba(128, 128, 128, 0.068);
+  padding: 1.5% 20px 1.5% 5%;
+  margin: 10px 0 10px 10px;
+  border-left: 3px solid #00a0ad;
+  cursor: pointer;
+}
+.course__section__lesson__name{
+  max-width: 100%;
+  overflow: hidden;
+  word-wrap: break-word;
+}

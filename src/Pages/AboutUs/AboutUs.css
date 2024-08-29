@@ -1,0 +1,198 @@
+.AboutUs {
+    width: 100%;
+}
+
+.AboutUs__banner__sec {
+    height: 85vh;
+    width: 100%;
+    background-image: url('../../assets/about_us.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AboutUs__banner__content {
+    text-align: center;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.332);
+}
+
+.AboutUs__banner__content__heading {
+    color: white;
+    font-size: 4vw;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding: 5px;
+
+}
+
+.AboutUs__banner__content__text {
+    color: white;
+    font-size: 3vw;
+    letter-spacing: 3px;
+    padding: 5px;
+}
+
+.About__learning__container {
+    width: 100%;
+    margin: auto;
+}
+
+.About__learning__content {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 200px auto;
+}
+
+.About__learning {
+    width: 45%;
+}
+
+.About__learning__heading {
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 20px;
+    font-size: 38px;
+    line-height: 1.2;
+}
+
+.About__learning__text {
+    line-height: 1.8;
+    font-size: 18px;
+    color: #000000;
+    text-align: justify;
+}
+
+.About_Us_parent {
+    display: flex;
+    justify-items: flex-start;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 100%;
+    margin: 10% 0;
+}
+
+.About_Us_one,
+.About_Us_two {
+    height: auto;
+    min-width: 70%;
+    max-width: 70%;
+}
+
+.About_Us_one {
+    left: 0;
+    top: 0;
+    -webkit-clip-path: polygon(0 0, 100% 0%, 50% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0%, 50% 100%, 0% 100%);
+    /* background-color: aqua; */
+}
+
+.About_Us_two {
+    right: 0;
+    top: 0;
+    transform: translateX(-50%);
+    -webkit-clip-path: polygon(50% 0, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(50% 0, 100% 0%, 100% 100%, 0% 100%);
+    /* background-color: red; */
+}
+
+@media only screen and (max-width: 950px) {
+    .AboutUs__banner__sec {
+        height: 60vh;
+    }
+
+    .AboutUs__banner__content {
+        width: 80%;
+    }
+
+    .AboutUs__banner__content__heading {
+        font-size: 6vw;
+        letter-spacing: 2px;
+    }
+
+    .AboutUs__banner__content__text {
+        font-size: 4vw;
+        letter-spacing: 2px;
+    }
+    .About_Us_parent {
+        display: block;
+        width: 80%;
+        margin: 5% auto;
+    }
+
+    .About_Us_one,
+    .About_Us_two {
+        height: auto;
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .About_Us_one {
+        left: auto !important;
+        transform: none;
+        top: auto !important;
+        -webkit-clip-path: none;
+        clip-path: none;
+    }
+
+    .About_Us_two {
+        transform: none;
+        right: auto !important;
+        top: auto !important;
+        -webkit-clip-path: none;
+        clip-path: none;
+    }
+
+    .About__learning {
+        min-width: none;
+        max-width: none;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .About__learning__heading {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .About__learning__text {
+        line-height: 1.7;
+        font-size: 17px;
+        margin-bottom: 60px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .AboutUs__banner__sec {
+        height: 50vh;
+    }
+
+    .AboutUs__banner__content {
+        width: 80%;
+    }
+
+    .AboutUs__banner__content__heading {
+        font-size: 10vw;
+        letter-spacing: 2px;
+    }
+
+    .AboutUs__banner__content__text {
+        font-size: 5vw;
+        letter-spacing: 2px;
+    }
+
+    .About__learning__heading {
+        font-size: 7vw;
+        font-weight: bold;
+    }
+
+    .About__learning__text {
+        line-height: 1.7;
+        font-size: 17px;
+        margin-bottom: 60px;
+    }
+}

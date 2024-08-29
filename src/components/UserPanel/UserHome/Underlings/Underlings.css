@@ -1,0 +1,188 @@
+.Underlings {
+  width: 100%;
+  margin: 40px 0;
+  color: #41424c;
+}
+
+.Underlings__heading {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: x-large;
+}
+
+.Underlings__card__container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  justify-content: space-between;
+}
+
+.Underlings__card {
+  min-width: 48.5%;
+  max-width: 48.5%;
+  margin-bottom: 30px;
+  /* min-height: 150px;
+    max-height: 150px; */
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+}
+
+.Underlings__card__head {
+  background-color: rgba(240, 238, 238, 0.816);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+}
+
+.Underlings__card__name {
+  font-size: large;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.Underlings__card__score__box {
+  display: flex;
+  align-items: center;
+  border-radius: 500px;
+  padding: 10px 20px;
+  gap: 10px;
+  font-size: large;
+  color: white;
+}
+
+.Underlings__card__score__icon {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.ProgressSection__courses__progress__box__container {
+  min-height: 230px;
+  min-height: 230px;
+  overflow-y: auto;
+}
+
+.Underlings__card__content__box {
+  padding: 10px 20px;
+}
+
+.Underlings__card__content__item__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: larger;
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+
+.Underlings__card__content__item__name {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.Underlings__card__content__item__value {
+  min-width: 40px;
+  min-height: 40px;
+  background-color: #00a0ad;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 700px;
+  padding: 0 2%;
+}
+.Underlings__card__expanded__box {
+  margin-top: 10px;
+}
+.Underlings__card__expanded__divider {
+  min-height: 1px;
+  max-height: 1px;
+  width: 100%;
+  background-color: rgba(98, 98, 98, 0.428);
+}
+.Underlings__card__expand__Btn__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5px 10px 21px;
+}
+
+.Underlings__card__expanded__courses__heading {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: large;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: rgba(240, 238, 238, 0.816);
+  cursor: pointer;
+}
+
+.Underlings__card__expanded__training__heading {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: large;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: rgba(240, 238, 238, 0.816);
+  cursor: pointer;
+}
+
+.Underlings__card__expanded__training__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid rgba(98, 98, 98, 0.428);
+}
+
+.Underlings__card__expanded__training__name {
+  font-weight: 600;
+  max-width: 50%;
+  max-height: 50px;
+  overflow-wrap: break-word;
+  overflow: hidden;
+}
+
+.Underlings__card__expanded__training__date__box {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  max-width: 40%;
+  overflow: hidden;
+}
+
+.Underlings__card__expanded__training__date {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 20px;
+  color: white;
+  border-radius: 700px;
+}
+
+.Underlying_Button_wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+@media only screen and (max-width: 850px) {
+  .Underlings__card__container {
+    display: block;
+  }
+
+  .Underlings__card {
+    min-width: 100%;
+    max-width: 100%;
+  }
+}

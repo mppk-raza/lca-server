@@ -1,0 +1,248 @@
+.Gallery {
+  width: 100%;
+  margin: 0 auto 30px auto;
+  min-height: 80vh;
+}
+
+.Gallery__heading {
+  background-color: white;
+  color: #41424C;
+  font-size: 40px;
+  padding: 2vh 0 2vh 7%;
+  text-transform: uppercase;
+}
+
+.Gallery_Car_Cont {
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 45vh;
+  max-height: 45vh;
+}
+
+.Gallery_Car_Item {
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 45vh;
+  max-height: 45vh;
+}
+
+.Gallery__Container {
+  display: flex;
+  justify-content: space-between !important;
+  align-items: flex-start;
+  padding: 20px 2.5%;
+  width: 80%;
+  border: 1px solid #00a0ad;
+  margin: 0 auto 3% auto;
+  border-radius: 10px;
+  box-shadow: 0px 2.5px 5px #cacaca;
+}
+
+.Gallery__Heading__Small {
+  color: #00a0ad;
+  font-size: x-large;
+  margin: 0 0 0 0;
+  text-transform: uppercase;
+}
+
+.Gallery_Gal_Cont {
+  width: fit-content;
+}
+
+.Gallery__oneImage {
+  min-width: 20vw;
+  max-width: 20vw;
+  max-height: 175px;
+  min-height: 175px;
+  margin-left: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all ease-in-out 0.1s;
+}
+
+.Gallery__oneImage:hover {
+  transform: scale(1.1);
+  box-shadow: -5px 5px 10px #aaaaaa;
+}
+
+
+
+
+.Gallery__box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.Gallery__img {
+  cursor: pointer;
+  min-width: 200px;
+  max-width: 200px;
+  min-height: 200px;
+  max-height: 200px;
+  margin: 1% auto;
+  border-radius: 2%;
+}
+
+/* .Gallery__img:hover{
+    opacity:0.7;
+} */
+.Gallery__img__text__box {
+  min-width: 200px;
+  max-width: 200px;
+  min-height: 200px;
+  max-height: 200px;
+  object-fit: cover;
+  background-color: rgba(0, 0, 0, 0.382);
+}
+
+.Gallery__img__text {
+  text-align: center;
+  padding: 35% 0;
+  color: white;
+}
+
+.view__img__box {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.view__img {
+  width: 65vw;
+  height: 75vh;
+  object-fit: cover;
+}
+
+.slide__btn__img__container {
+  display: flex;
+  width: 100%;
+  margin: auto;
+}
+
+.close__img__btn {
+  cursor: pointer;
+  min-width: 20px;
+  max-width: 20px;
+  min-height: 20px;
+  max-height: 20px;
+  color: white;
+  text-align: center;
+  margin-left: 90%;
+}
+
+.close__img__btn:hover {
+  transform: scale(1.4);
+  transition: all 0.2s ease-in-out;
+}
+
+.slide__img__btn {
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  margin: auto;
+}
+
+.slide__img__btn:hover {
+  transform: scale(1.4);
+  transition: all 0.2s ease-in-out;
+}
+
+.slide__img__text {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+.skeletons {
+  display: flex;
+  flex-wrap: wrap;
+  /* width: 100%; */
+  margin: auto;
+}
+
+@media screen and (max-width:900px) {
+  .Gallery__oneImage {
+    min-width: 170px;
+    max-width: 170px;
+    max-height: 150px;
+    min-height: 150px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all ease-in-out 0.1s;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+
+  .Gallery__box {
+    width: 85%;
+  }
+
+  .Gallery__img {
+    min-width: 130px;
+    max-width: 130px;
+    min-height: 130px;
+    max-height: 130px;
+    margin: 1.5% auto;
+  }
+
+  /* .Gallery__img:hover{
+      opacity:0.7;
+  } */
+  .Gallery__img__text__box {
+    min-width: 130px;
+    max-width: 130px;
+    min-height: 130px;
+    max-height: 130px;
+    object-fit: cover;
+    background-color: rgba(0, 0, 0, 0.382);
+  }
+
+  .Gallery__img__text {
+    text-align: center;
+    padding: 35% 0;
+    color: white;
+  }
+
+  .view__img__box {
+    width: 100%;
+  }
+
+  .view__img {
+    width: 100vw;
+    height: 30vh;
+    object-fit: contain;
+  }
+
+  .skeleton {
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .Gallery__Container {
+    display: block;
+    padding: 20px 3%;
+  }
+
+  .Gallery__Heading__Small {
+    text-align: center;
+    font-size: x-large;
+    margin-bottom: 10px;
+  }
+
+  .Gallery_Gal_Cont {
+    width: 100%;
+    display: block;
+  }
+
+  .Gallery__oneImage {
+    min-width: 90%;
+    max-width: 90%;
+    margin: 10px 5%;
+  }
+}

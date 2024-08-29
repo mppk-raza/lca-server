@@ -1,0 +1,12 @@
+.UserCourses{
+    width: 100%;
+    margin: 0 auto;
+}
+.UserCourses__heading{
+    font-size: xx-large;
+    font-weight: 700;
+    text-align: center;
+    background-color: #41424C;
+    color: white;
+    padding-top: 40px;
+}
